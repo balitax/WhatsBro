@@ -2,9 +2,13 @@
 WhatsApp Clone Using 100% Build with SwiftUI
 
 ## Todo
-- Build Phone Login & Select Country
-- Build Dashboard Page (MainTab)
-- Build Status Page
+-  [x] ~~Build Phone Login & Select Country~~
+- [x] ~~Build Dashboard Page (MainTab)~~
+- [x] ~~Build Status Page~~
+- [x] Build Settings Page
+- [x] Build Chat List Page
+- [x] Build Chat Detail Page
+- [x] Build Call List Page
 
 Develop by Agus Cahyono
 
