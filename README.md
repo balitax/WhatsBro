@@ -12,3 +12,4 @@ Develop by Agus Cahyono
 | --- | --- |
 | Phone Login | <img src="https://github.com/balitax/WhatsBro/blob/master/Screen/1.png?raw=true" width="300">  |
 | Country Select |  <img src="https://github.com/balitax/WhatsBro/blob/master/Screen/2.png?raw=true" width="300">  |
+| Status Page |  <img src="https://github.com/balitax/WhatsBro/blob/master/Screen/3.png?raw=true" width="300">  |
