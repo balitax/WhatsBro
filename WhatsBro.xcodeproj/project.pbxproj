@@ -16,6 +16,8 @@
 		2F232DC024E19E6500FEDF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F232D9524E19E6500FEDF09 /* Assets.xcassets */; };
 		2F232DC124E19E6500FEDF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F232D9524E19E6500FEDF09 /* Assets.xcassets */; };
 		2F232DD324E19EB900FEDF09 /* PhoneLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232DD224E19EB900FEDF09 /* PhoneLogin.swift */; };
+		2F721A3A24E2599B0093A3F8 /* StatusPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F721A3924E2599B0093A3F8 /* StatusPageView.swift */; };
+		2F721A3C24E25FD20093A3F8 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F721A3B24E25FD20093A3F8 /* Color+Extensions.swift */; };
 		2F79849124E24B0200E48611 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79849024E24B0200E48611 /* Country.swift */; };
 		2F79849324E24B1E00E48611 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79849224E24B1E00E48611 /* Countries.swift */; };
 		2FA1319C24E1AAE600376626 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1319B24E1AAE600376626 /* CountryPickerView.swift */; };
@@ -58,6 +60,8 @@
 		2F232DB924E19E6500FEDF09 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2F232DBB24E19E6500FEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F232DD224E19EB900FEDF09 /* PhoneLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLogin.swift; sourceTree = "<group>"; };
+		2F721A3924E2599B0093A3F8 /* StatusPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPageView.swift; sourceTree = "<group>"; };
+		2F721A3B24E25FD20093A3F8 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		2F79849024E24B0200E48611 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		2F79849224E24B1E00E48611 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		2FA1319B24E1AAE600376626 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 		2F232DD024E19E9600FEDF09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F721A3824E2598D0093A3F8 /* StatusView */,
 				2FA131A024E1AF9900376626 /* Main */,
 				2F232DD124E19EA600FEDF09 /* PhoneLogin */,
 			);
@@ -186,6 +191,14 @@
 				2FA1319B24E1AAE600376626 /* CountryPickerView.swift */,
 			);
 			path = PhoneLogin;
+			sourceTree = "<group>";
+		};
+		2F721A3824E2598D0093A3F8 /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				2F721A3924E2599B0093A3F8 /* StatusPageView.swift */,
+			);
+			path = StatusView;
 			sourceTree = "<group>";
 		};
 		2F79848F24E24AF900E48611 /* Models */ = {
@@ -203,6 +216,7 @@
 				2FA1319E24E1AD4B00376626 /* UIApplication+Extensions.swift */,
 				2FA131A324E1B81A00376626 /* UIViewController+Extensions.swift */,
 				2FA131A524E1B83800376626 /* SamplePageView.swift */,
+				2F721A3B24E25FD20093A3F8 /* Color+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -373,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA1319F24E1AD4B00376626 /* UIApplication+Extensions.swift in Sources */,
+				2F721A3A24E2599B0093A3F8 /* StatusPageView.swift in Sources */,
 				2F79849124E24B0200E48611 /* Country.swift in Sources */,
 				2FA131A624E1B83800376626 /* SamplePageView.swift in Sources */,
 				2F232DBE24E19E6500FEDF09 /* ContentView.swift in Sources */,
@@ -382,6 +397,7 @@
 				2FA1319C24E1AAE600376626 /* CountryPickerView.swift in Sources */,
 				2F79849324E24B1E00E48611 /* Countries.swift in Sources */,
 				2FA131A224E1AFA500376626 /* MainTabView.swift in Sources */,
+				2F721A3C24E25FD20093A3F8 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

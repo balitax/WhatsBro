@@ -18,7 +18,7 @@ struct MainTabView: View {
         return VStack {
             TabView {
                 
-                CountryPickerView()
+                StatusPageView()
                     .tabItem {
                         Image("ic_status")
                             .renderingMode(.template)
