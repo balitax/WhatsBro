@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F232DAF24E19E6500FEDF09 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232DAE24E19E6500FEDF09 /* Tests_iOS.swift */; };
+		2F232DBA24E19E6500FEDF09 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232DB924E19E6500FEDF09 /* Tests_macOS.swift */; };
+		2F232DBC24E19E6500FEDF09 /* WhatsBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232D9324E19E6300FEDF09 /* WhatsBroApp.swift */; };
+		2F232DBD24E19E6500FEDF09 /* WhatsBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232D9324E19E6300FEDF09 /* WhatsBroApp.swift */; };
+		2F232DBE24E19E6500FEDF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232D9424E19E6300FEDF09 /* ContentView.swift */; };
+		2F232DBF24E19E6500FEDF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232D9424E19E6300FEDF09 /* ContentView.swift */; };
+		2F232DC024E19E6500FEDF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F232D9524E19E6500FEDF09 /* Assets.xcassets */; };
+		2F232DC124E19E6500FEDF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F232D9524E19E6500FEDF09 /* Assets.xcassets */; };
+		2F232DD324E19EB900FEDF09 /* PhoneLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F232DD224E19EB900FEDF09 /* PhoneLogin.swift */; };
+		2F79849124E24B0200E48611 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79849024E24B0200E48611 /* Country.swift */; };
+		2F79849324E24B1E00E48611 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79849224E24B1E00E48611 /* Countries.swift */; };
+		2FA1319C24E1AAE600376626 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1319B24E1AAE600376626 /* CountryPickerView.swift */; };
+		2FA1319F24E1AD4B00376626 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1319E24E1AD4B00376626 /* UIApplication+Extensions.swift */; };
+		2FA131A224E1AFA500376626 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA131A124E1AFA500376626 /* MainTabView.swift */; };
+		2FA131A424E1B81A00376626 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA131A324E1B81A00376626 /* UIViewController+Extensions.swift */; };
+		2FA131A624E1B83800376626 /* SamplePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA131A524E1B83800376626 /* SamplePageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F232DAB24E19E6500FEDF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F232D8E24E19E6300FEDF09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F232D9924E19E6500FEDF09;
+			remoteInfo = "WhatsBro (iOS)";
+		};
+		2F232DB624E19E6500FEDF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F232D8E24E19E6300FEDF09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F232DA124E19E6500FEDF09;
+			remoteInfo = "WhatsBro (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F232D9324E19E6300FEDF09 /* WhatsBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsBroApp.swift; sourceTree = "<group>"; };
+		2F232D9424E19E6300FEDF09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F232D9524E19E6500FEDF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F232D9A24E19E6500FEDF09 /* WhatsBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F232D9D24E19E6500FEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F232DA224E19E6500FEDF09 /* WhatsBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F232DA424E19E6500FEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F232DA524E19E6500FEDF09 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2F232DAA24E19E6500FEDF09 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F232DAE24E19E6500FEDF09 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2F232DB024E19E6500FEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F232DB524E19E6500FEDF09 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F232DB924E19E6500FEDF09 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2F232DBB24E19E6500FEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F232DD224E19EB900FEDF09 /* PhoneLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLogin.swift; sourceTree = "<group>"; };
+		2F79849024E24B0200E48611 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2F79849224E24B1E00E48611 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		2FA1319B24E1AAE600376626 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		2FA1319E24E1AD4B00376626 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		2FA131A124E1AFA500376626 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2FA131A324E1B81A00376626 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		2FA131A524E1B83800376626 /* SamplePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F232D9724E19E6500FEDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232D9F24E19E6500FEDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DA724E19E6500FEDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DB224E19E6500FEDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F232D8D24E19E6300FEDF09 = {
+			isa = PBXGroup;
+			children = (
+				2F232D9224E19E6300FEDF09 /* Shared */,
+				2F232D9C24E19E6500FEDF09 /* iOS */,
+				2F232DA324E19E6500FEDF09 /* macOS */,
+				2F232DAD24E19E6500FEDF09 /* Tests iOS */,
+				2F232DB824E19E6500FEDF09 /* Tests macOS */,
+				2F232D9B24E19E6500FEDF09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F232D9224E19E6300FEDF09 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2F79848F24E24AF900E48611 /* Models */,
+				2FA1319D24E1AD3C00376626 /* Extensions */,
+				2F232DD024E19E9600FEDF09 /* Views */,
+				2F232D9324E19E6300FEDF09 /* WhatsBroApp.swift */,
+				2F232D9424E19E6300FEDF09 /* ContentView.swift */,
+				2F232D9524E19E6500FEDF09 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2F232D9B24E19E6500FEDF09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F232D9A24E19E6500FEDF09 /* WhatsBro.app */,
+				2F232DA224E19E6500FEDF09 /* WhatsBro.app */,
+				2F232DAA24E19E6500FEDF09 /* Tests iOS.xctest */,
+				2F232DB524E19E6500FEDF09 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F232D9C24E19E6500FEDF09 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F232D9D24E19E6500FEDF09 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2F232DA324E19E6500FEDF09 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F232DA424E19E6500FEDF09 /* Info.plist */,
+				2F232DA524E19E6500FEDF09 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2F232DAD24E19E6500FEDF09 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F232DAE24E19E6500FEDF09 /* Tests_iOS.swift */,
+				2F232DB024E19E6500FEDF09 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2F232DB824E19E6500FEDF09 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F232DB924E19E6500FEDF09 /* Tests_macOS.swift */,
+				2F232DBB24E19E6500FEDF09 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		2F232DD024E19E9600FEDF09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FA131A024E1AF9900376626 /* Main */,
+				2F232DD124E19EA600FEDF09 /* PhoneLogin */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F232DD124E19EA600FEDF09 /* PhoneLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2F232DD224E19EB900FEDF09 /* PhoneLogin.swift */,
+				2FA1319B24E1AAE600376626 /* CountryPickerView.swift */,
+			);
+			path = PhoneLogin;
+			sourceTree = "<group>";
+		};
+		2F79848F24E24AF900E48611 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F79849024E24B0200E48611 /* Country.swift */,
+				2F79849224E24B1E00E48611 /* Countries.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FA1319D24E1AD3C00376626 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FA1319E24E1AD4B00376626 /* UIApplication+Extensions.swift */,
+				2FA131A324E1B81A00376626 /* UIViewController+Extensions.swift */,
+				2FA131A524E1B83800376626 /* SamplePageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FA131A024E1AF9900376626 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2FA131A124E1AFA500376626 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F232D9924E19E6500FEDF09 /* WhatsBro (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F232DC424E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "WhatsBro (iOS)" */;
+			buildPhases = (
+				2F232D9624E19E6500FEDF09 /* Sources */,
+				2F232D9724E19E6500FEDF09 /* Frameworks */,
+				2F232D9824E19E6500FEDF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsBro (iOS)";
+			productName = "WhatsBro (iOS)";
+			productReference = 2F232D9A24E19E6500FEDF09 /* WhatsBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F232DA124E19E6500FEDF09 /* WhatsBro (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F232DC724E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "WhatsBro (macOS)" */;
+			buildPhases = (
+				2F232D9E24E19E6500FEDF09 /* Sources */,
+				2F232D9F24E19E6500FEDF09 /* Frameworks */,
+				2F232DA024E19E6500FEDF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhatsBro (macOS)";
+			productName = "WhatsBro (macOS)";
+			productReference = 2F232DA224E19E6500FEDF09 /* WhatsBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F232DA924E19E6500FEDF09 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F232DCA24E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2F232DA624E19E6500FEDF09 /* Sources */,
+				2F232DA724E19E6500FEDF09 /* Frameworks */,
+				2F232DA824E19E6500FEDF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F232DAC24E19E6500FEDF09 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2F232DAA24E19E6500FEDF09 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2F232DB424E19E6500FEDF09 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F232DCD24E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2F232DB124E19E6500FEDF09 /* Sources */,
+				2F232DB224E19E6500FEDF09 /* Frameworks */,
+				2F232DB324E19E6500FEDF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F232DB724E19E6500FEDF09 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2F232DB524E19E6500FEDF09 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F232D8E24E19E6300FEDF09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2F232D9924E19E6500FEDF09 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2F232DA124E19E6500FEDF09 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2F232DA924E19E6500FEDF09 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2F232D9924E19E6500FEDF09;
+					};
+					2F232DB424E19E6500FEDF09 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2F232DA124E19E6500FEDF09;
+					};
+				};
+			};
+			buildConfigurationList = 2F232D9124E19E6300FEDF09 /* Build configuration list for PBXProject "WhatsBro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F232D8D24E19E6300FEDF09;
+			productRefGroup = 2F232D9B24E19E6500FEDF09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F232D9924E19E6500FEDF09 /* WhatsBro (iOS) */,
+				2F232DA124E19E6500FEDF09 /* WhatsBro (macOS) */,
+				2F232DA924E19E6500FEDF09 /* Tests iOS */,
+				2F232DB424E19E6500FEDF09 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F232D9824E19E6500FEDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F232DC024E19E6500FEDF09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DA024E19E6500FEDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F232DC124E19E6500FEDF09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DA824E19E6500FEDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DB324E19E6500FEDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F232D9624E19E6500FEDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA1319F24E1AD4B00376626 /* UIApplication+Extensions.swift in Sources */,
+				2F79849124E24B0200E48611 /* Country.swift in Sources */,
+				2FA131A624E1B83800376626 /* SamplePageView.swift in Sources */,
+				2F232DBE24E19E6500FEDF09 /* ContentView.swift in Sources */,
+				2F232DBC24E19E6500FEDF09 /* WhatsBroApp.swift in Sources */,
+				2FA131A424E1B81A00376626 /* UIViewController+Extensions.swift in Sources */,
+				2F232DD324E19EB900FEDF09 /* PhoneLogin.swift in Sources */,
+				2FA1319C24E1AAE600376626 /* CountryPickerView.swift in Sources */,
+				2F79849324E24B1E00E48611 /* Countries.swift in Sources */,
+				2FA131A224E1AFA500376626 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232D9E24E19E6500FEDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F232DBF24E19E6500FEDF09 /* ContentView.swift in Sources */,
+				2F232DBD24E19E6500FEDF09 /* WhatsBroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DA624E19E6500FEDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F232DAF24E19E6500FEDF09 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F232DB124E19E6500FEDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F232DBA24E19E6500FEDF09 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F232DAC24E19E6500FEDF09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F232D9924E19E6500FEDF09 /* WhatsBro (iOS) */;
+			targetProxy = 2F232DAB24E19E6500FEDF09 /* PBXContainerItemProxy */;
+		};
+		2F232DB724E19E6500FEDF09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F232DA124E19E6500FEDF09 /* WhatsBro (macOS) */;
+			targetProxy = 2F232DB624E19E6500FEDF09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F232DC224E19E6500FEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F232DC324E19E6500FEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F232DC524E19E6500FEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.agus.WhatsBro;
+				PRODUCT_NAME = WhatsBro;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F232DC624E19E6500FEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.agus.WhatsBro;
+				PRODUCT_NAME = WhatsBro;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F232DC824E19E6500FEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.agus.WhatsBro;
+				PRODUCT_NAME = WhatsBro;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F232DC924E19E6500FEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.agus.WhatsBro;
+				PRODUCT_NAME = WhatsBro;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2F232DCB24E19E6500FEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.agus.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsBro (iOS)";
+			};
+			name = Debug;
+		};
+		2F232DCC24E19E6500FEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.agus.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WhatsBro (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F232DCE24E19E6500FEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.agus.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WhatsBro (macOS)";
+			};
+			name = Debug;
+		};
+		2F232DCF24E19E6500FEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.agus.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WhatsBro (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F232D9124E19E6300FEDF09 /* Build configuration list for PBXProject "WhatsBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F232DC224E19E6500FEDF09 /* Debug */,
+				2F232DC324E19E6500FEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F232DC424E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "WhatsBro (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F232DC524E19E6500FEDF09 /* Debug */,
+				2F232DC624E19E6500FEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F232DC724E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "WhatsBro (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F232DC824E19E6500FEDF09 /* Debug */,
+				2F232DC924E19E6500FEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F232DCA24E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F232DCB24E19E6500FEDF09 /* Debug */,
+				2F232DCC24E19E6500FEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F232DCD24E19E6500FEDF09 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F232DCE24E19E6500FEDF09 /* Debug */,
+				2F232DCF24E19E6500FEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F232D8E24E19E6300FEDF09 /* Project object */;
+}
